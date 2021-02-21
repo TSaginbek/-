@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Header CSS -->
+    <link rel="stylesheet" href="css/header.css">
+    <!-- Slider CSS -->
+    <link rel="stylesheet" href="css/slider.css">
+    <!-- Content CSS -->
+    <link rel="stylesheet" href="css/content.css">
+    <!-- Footer CSS -->
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- Search CSS -->
+    <link rel="stylesheet" href="css/search.css">
+
+    <!-- JQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Slick JS -->
+    <script src="js/slick.min.js"></script>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <title>Смотреть фильмы онлайн бесплатно в хорошем качестве в онлайн кинотеатре Kinokor.ru Фильмы онлайн и новинки кино бесплатно на Kinokor</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__head">
+                    <a href="#" class="header__logo">
+                        <img src="img/logo/LOGO.png">
+                    </a>
+                    <ul class="header__menu" id="header__menu">
+                        <li>
+                            <a href="#" class="header__link">
+                                Главная
+                            </a>
+                            <span class="menu__arrow arrow"></span>
+                            <ul class="sub-menu__list">
+                                <li>
+                                    <a href="#" class="sub-menu__link">Боевики</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Прикльючение</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Фантастика</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Фэнтези</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">
+                                Фильмы
+                            </a>
+                            <span class="menu__arrow arrow"></span>
+                            <ul class="sub-menu__list">
+                                <li>
+                                    <a href="#" class="sub-menu__link">Биография</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Боевики</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Вестерн</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Военные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Детективы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Для детей</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Документальные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Драма</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Зарубежные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Исторические</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Катастрофы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Комедии</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Криминал</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Мелодрамы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Мистические</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Музыкальные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">По комиксам</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Приключения</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Русские</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Семейные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Советские</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Спорт</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Триллеры</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Ужасы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Фантастика</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Фэнтези</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">
+                                Мультфильмы
+                            </a>
+                            <span class="menu__arrow arrow"></span>
+                            <ul class="sub-menu__list">
+                                <li>
+                                    <a href="#" class="sub-menu__link">Боевики</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Детективы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Для взрослых</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Драма</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Зарубежные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Комедия</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Мюзикл</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Полнометражные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Приключения</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Развивающие</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Русские</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Семейные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Сериалы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Советские</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Триллеры</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Ужасы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Фантастика</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Фэнтези</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="header__link">
+                                Сериалы
+                            </a>
+                            <span class="menu__arrow arrow"></span>
+                            <ul class="sub-menu__list">
+                                <li>
+                                    <a href="#" class="sub-menu__link">Биография</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Боевики</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Военные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Детективы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Для детей</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Документальные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Драма</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Дорамы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Зарубежные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Исторические</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Комедийные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Криминал</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Медицинские</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Мелодрамы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Мистические</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Приключения</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Романтика</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Русские</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Семейные</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Триллеры</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Ужасы</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Фантастика</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="sub-menu__link">Фэнтези</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__nav">
+                    <form action="#" class="header__search">
+                        <input type="text" placeholder="Поиск...">
+                        <button><i class="fas fa-search"></i></button>
+                    </form>
+
+                    <a href="#" class="header__acount">
+                        <img src="img/account/default.png">
+                    </a>
+
+                    <div class="header__burger" id="header__burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="content">
+        <div class="container">
+            <h1 class="search__title">
+                Результат поиска: Мстители Финал
+            </h1>
+            <div class="product__body">
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Доктор Стрэндж.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Доктор Стрэндж</a>
+                        <p class="product__year">2016</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Мстители: Финал.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <a href="show.html" class="product__link">
+                                <i class="far fa-play-circle"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Мстители: Финал</a>
+                        <p class="product__year">2018</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Варкрафт.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Варкрафт</a>
+                        <p class="product__year">2016</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Джокер.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Джокер</a>
+                        <p class="product__year">2016</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Человек-Паук: Вдали от дома.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Вдали от дома</a>
+                        <p class="product__year">2016</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Человек-паук: Возвращение домой.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Человек-Паук: Возвра...</a>
+                        <p class="product__year">2016</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Калашников.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Калашников</a>
+                        <p class="product__year">2020</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Чудо-женщина: 1984.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Чудо-женщина: 1984</a>
+                        <p class="product__year">2020</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Бладшот.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Бладшот</a>
+                        <p class="product__year">2020</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Кредо убийцы.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Кредо убийцы</a>
+                        <p class="product__year">2020</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Туннель: Опасно для жизни.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Туннель: Опасно для ...</a>
+                        <p class="product__year">2016</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Дора и Затерянный город.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Дора и Затерянный го...</a>
+                        <p class="product__year">2020</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Т-34.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Т-34</a>
+                        <p class="product__year">2020</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/1+1.jpg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">1+1</a>
+                        <p class="product__year">2020</p>
+                    </div>
+                </div>
+
+                <div class="product__item">
+                    <div class="product__item_img">
+                        <img src="img/products/Соник в кино.jpeg" class="product__img">
+                        <div class="product__icon_play">
+                            <i class="far fa-play-circle"></i>
+                        </div>
+                    </div>
+                    <div class="product__item_nav">
+                        <a href="#" class="product__title">Соник в кино</a>
+                        <p class="product__year">2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <a href="" class="footer__logo">
+                    <img src="img/logo/LOGO.png">
+                </a>
+                <ul class="footer__nav">
+                    <li>
+                        <a href="#" class="footer__link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">
+                            <i class="fab fa-telegram-plane"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Header JS -->
+    <script src="js/header.js"></script>
+    <!-- Slider Script -->
+    <script src="js/slider.js"></script>
+</body>
+</html>

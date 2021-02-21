@@ -1,0 +1,32 @@
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    margin-top: 55px;
+
+    background: #101B21;
+    margin-right: 5px;
+}
+.footer__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo > img {
+    height: 50px;
+}
+.footer__nav {
+    display: flex;
+    list-style: none;
+}
+.footer__nav > li {
+    margin-left: 10px;
+}
+.footer__link > i {
+    color: #e3e3e3;
+    font-size: 22px;
+    transition: all 0.3s ease;
+}
+.footer__link > i:hover {
+    color: #2A96F0;
+}

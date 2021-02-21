@@ -1,0 +1,118 @@
+.product__show {
+    display: flex;
+}
+.product__show_head {
+    width: 360px;
+    height: auto;
+    margin-right: 10px;
+}
+.product__show_contact {
+    width: 100%;
+    background: #2A96F0;
+    padding: 5px 20px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #e3e3e3;
+    display: block;
+    text-decoration: none;
+}
+.adds {
+    position: static;
+    margin: 5px 0;
+    width: 100%;
+    height:600px;
+    background: #000;
+}
+.product__show_body {
+    width: 100%;
+    height: auto;
+}
+.product__show_title {
+    font-weight: 300;
+    color: #e3e3e3;
+    font-size: 32px;
+}
+.product__show_nav {
+    display: flex;
+}
+.product__show_title:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: #2A96F0;
+}
+.product__show_img {
+    max-width: 300px;
+    height: 350px;
+}
+.product__show_info {
+    width: 100%;
+    list-style: none;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #e3e3e3;
+    font-weight: 300;
+}
+.product__show_info > li > a {
+    text-decoration: none;
+    color: #e3e3e3;
+}
+.product__show_info > li > a:hover {
+    color: #2A96F0;
+}
+.product__show_description {
+    font-size: 18px;
+    color: #e3e3e3;
+    font-weight: 300;
+    margin: 10px 0;
+}
+.product__show_like-view {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+    background: #2A96F0;
+    font-size: 18px;
+    color: #e3e3e3;
+    margin: 10px 0;
+}
+
+@media(max-width:1000px) {
+    .product__show {
+        display: block;
+    }
+    .product__show_head {
+        margin: 0;
+        width: 100%;
+    }
+    .adds {
+        display: none;
+    }
+    .product__show_title {
+        font-size: 28px;
+    }
+    .product__show_title:after {
+        width: 50px;
+    }
+}
+@media(max-width:550px) {
+    .product__show_nav {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .product__show_info {
+        margin: 0;
+        text-align: left;
+    }
+    .product__show_like-view {
+        display: block;
+    }
+}
